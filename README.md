@@ -6,9 +6,9 @@ interesting, so I decided to implement it in Racket, which was the language I wa
 
 Here is a good read about why RSA works mathematically: http://www.mathaware.org/mam/06/Kaliski.pdf
 
-And here is how to en/decrypt a message using the RSA algorithm written by me:
+And here is how to en/decrypt a message using this program:
 
-The main program contains 3 parts: A generatesthe public key (n, e) and sends it to B, B encrypts the letter message into cyphertext
+The main program contains 3 parts: A generates the public key (n, e) and sends it to B, B encrypts the letter message into cyphertext
 (a number c) and sends c back to A, and A decipher the message using c, n and private key d. 
 
 To be more specific, 
